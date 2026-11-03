@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mavis</title>
+<style>
+  :root { --bg: #fbfaf8; --fg: #1d1d1f; --muted: #5f6368; --line: #e4e1dc; --accent: #2f5fd0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141416; --fg: #ececee; --muted: #a0a3a8; --line: #2c2c30; --accent: #8aa8ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.01em; }
+  p { margin: 0 0 16px; }
+  .sub { color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mavis</h1>
+  <p class="sub">A personal voice assistant that runs on one person's own computer.</p>
+  <p>Mavis is a private, self-hosted assistant built by Joel Mead for his own use. It is not a
+    public service: there are no accounts to sign up for, and it is not offered to anyone else.</p>
+  <p>With its owner's permission it can read his Gmail to sort new mail and save draft replies.
+    It never sends an email without his explicit approval, and his mail stays on his own computer.</p>
+  <p><a href="privacy.html">Privacy policy</a></p>
+  <footer>Mavis · a personal project</footer>
+</main>
+</body>
+</html>
